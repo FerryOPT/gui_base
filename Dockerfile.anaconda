@@ -1,3 +1,4 @@
 FROM ruifanasml/guibase
 
+ADD install/anaconda.sh $INST_SCRIPTS/anaconda.sh
 RUN $INST_SCRIPTS/anaconda.sh
