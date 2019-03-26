@@ -1,0 +1,3 @@
+FROM ruifanasml/guibase
+
+RUN $INST_SCRIPTS/anaconda.sh
