@@ -28,7 +28,3 @@ RUN $INST_SCRIPTS/tigervnc.sh
 
 ### Install xfce UI
 RUN $INST_SCRIPTS/xfce_ui.sh
-
-### Install pip and robotframework
-RUN yum install -y python-pip && pip install robotframework
-
