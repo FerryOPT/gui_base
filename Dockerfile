@@ -3,7 +3,6 @@
 FROM centos:7
 
 MAINTAINER RUI FAN "rui.fan@asml.com"
-ENV REFRESHED_AT 2018-10-30
 
 
 ## Connection ports for controlling the UI:
