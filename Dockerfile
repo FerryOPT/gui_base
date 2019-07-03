@@ -24,7 +24,7 @@ ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 
 ### Install xvnc-server & noVNC - HTML5 based VNC viewer
 RUN $INST_SCRIPTS/tigervnc.sh
-# RUN $INST_SCRIPTS/no_vnc.sh
+RUN $INST_SCRIPTS/install_novnc.sh
 
 ### Install xfce UI
 RUN $INST_SCRIPTS/xfce_ui.sh
